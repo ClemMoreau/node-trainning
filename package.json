@@ -1,0 +1,19 @@
+{
+  "name": "node_playground",
+  "version": "1.0.0",
+  "description": "A sample Node.js project",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "static": "npx serve -p 5050 ./static",
+    "test": "test"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^8.32.0",
+    "fastify": "^5.3.2",
+    "fastify-cli": "^7.4.0",
+    "serve": "^14.2.4"
+  }
+}
